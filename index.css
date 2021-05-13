@@ -1,0 +1,105 @@
+
+body{
+    background-image: url(https://www.wallpapertip.com/wmimgs/0-2645_top-galaxy-wallpaper-blue-galaxy-background.jpg)   
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+.login-box{
+    flex-direction: column;
+    align-items: center;
+    padding: 2% 0%;
+    display: flex;
+
+    background-color: rgb(250, 248, 248);
+    height: 500px;
+    width: 20%;
+    -webkit-box-shadow: 0px 2px 5px 8px #545454; 
+    box-shadow: 0px 2px 5px 8px #545454;
+    border-radius: 2%;
+
+}
+.div-imagen{
+    height: 35%;
+    width: 45% ;
+    border-radius: 50%;
+    background-image: url(https://media.istockphoto.com/vectors/avatar-profile-icon-male-faceless-user-on-colorful-round-background-vector-id897479344?k=6&m=897479344&s=170667a&w=0&h=pGxwNpL7XxfmSm2mncDQ7jpN7FFhf30ikoYw8r5uG-4=);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 32px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.formulario{
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
+
+
+
+}
+
+
+.formulario h2 {
+    text-align: center;  
+    font-family: 'Montserrat', sans-serif;
+}
+
+.inputform {
+     margin: 10px;
+     padding: 7px;
+     font-size: 14px;
+     border-width: 2px;
+     border-color: #CCCCCC;
+     background-color: #FFFFFF;
+     color: #000000;
+     border-style: solid;
+     border-radius: 8px;
+     box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+     text-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    
+}
+
+#button-form {
+     
+        box-shadow: 0px 0px 0px 2px #9fb4f2;
+        background:linear-gradient(to bottom, #7892c2 5%, #476e9e 100%);
+        background-color:#7892c2;
+        border-radius:3px;
+        border:1px solid #4e6096;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        padding:7px 30px ; 
+        text-decoration:none;
+        text-shadow:1px 0px 0px #283966;
+        margin-top: 20px;
+    }
+
+#button-form:hover {
+        background:linear-gradient(to bottom, #476e9e 5%, #7892c2 100%);
+        background-color:#476e9e;
+ }
+
+ #link{
+     color: rgb(0, 0, 0);
+     margin-top: 6px;
+     opacity: 0.6;
+ }
